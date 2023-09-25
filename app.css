@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(60, 86, 252);
+    color:white;
+    display:inline-block;    
+}
+#outerDiv{
+   text-align: center;
+   width:80rem;
+   border:2px solid white;
+   padding:1%;
+  
+}
+
+#bigGlass h1{
+   height:4.7vh;
+   font-size:20px;
+}
+#bigGlass{
+    border:3.5px solid darkblue;
+    width:100px;
+    display:inline-block;
+    border-radius: 0px 0px 25px 25px;
+    color:rgb(5, 5, 183);
+    height:40vh;
+    
+}
+#leftwater{
+    background-color: white;
+    height:38.8vh; /*38.8vh*/
+    border-radius: 0px 0px 23px 22px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#water{
+    width:94px;
+    font-size: 18px;
+    font-weight:800;
+    line-height:0vh;
+    /*line height dynamically set krenge 38.8 vh h total jitna hr br bdegi usme s minus krke */
+}
+
+p{
+    padding:1%;
+    
+}
+#smallGlass{
+   
+    display:inline-block;
+    padding:1%;
+    width:300px;
+}
+.glass{
+    border:3px solid darkblue;
+    margin:3%;
+    display:inline-block;
+    height:15vh;
+    width:40px;
+    background-color: white;
+    color:blue;
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+    text-overflow:scroll;
+    padding-top:3vh;
+} 
+
